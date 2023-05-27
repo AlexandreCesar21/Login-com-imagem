@@ -17,19 +17,27 @@
     </style>
 </head>
 <body>
+    <div>
     <form action="cadastro.php" method="post" autocomplete="on">
+        <h2>LOGIN</h2>
         <p>
-            <label for="iemail">E-mail:</label>
+            <label for="iemail" class="principal">E-mail:</label>
             <input type="email" name="email" id="iemail">
         </p>
         <p>
-            <label for="isen">Senha:</label>
+            <label for="isen" class="principal">Senha:</label>
             <input type="password" name="sen" id="isen">
         </p>
+        <br>
         <p>
-            <input type="submit" value="Enviar">
-            <a href="">Esqueci a senha</a>
+            <input type="submit" value="Enviar" class="enviar">
+            <a href="#link" class="cima">Esqueceu a senha ?</a>
+            <br>
+            <br>
+            <a href="#" class="baixo">Criar uma conta</a>
         </p>
+        
     </form>
+    </div>
 </body>
 </html>
