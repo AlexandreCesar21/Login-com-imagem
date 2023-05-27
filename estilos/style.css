@@ -40,7 +40,19 @@ label {
 }
 
 .principal {
-    
+    text-shadow: 1px 1px 1px black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.depo {
+    height: 30px;
+    width: 300px;
+    border: none;
+    outline: none;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
 }
 
 .enviar {
@@ -48,6 +60,12 @@ label {
     color: white;
     padding: 5px;
     text-align: left;
+    border: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 1em;
 }
 
 .cima {
